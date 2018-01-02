@@ -12,3 +12,5 @@ var data = [{
 app.get("/", function(request, response) {
   response.json({data});
 })
+
+app.listen(process.env.PORT || 3000);

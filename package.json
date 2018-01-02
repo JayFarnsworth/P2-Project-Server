@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "cors": "^2.8.4",
+    "cors": "^2.8.4"
   },
   "devDependencies": {
     "nodemon": "^1.14.7"

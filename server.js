@@ -113,4 +113,4 @@ function errorHandler(err, req, res, next) {
   console.error('ERROR', err)
   const stack =  devMode ? err.stack : undefined
   res.status(500).send({error: err.message, stack, url: req.originalUrl})
-}
+};
